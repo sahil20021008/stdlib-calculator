@@ -45,7 +45,7 @@ To serve the project locally in a browser, run:
 `npm start`
 
 
-This runs a static web server (e.g., using webcheck) and opens the calculator at http://localhost:&lt;port&gt; in your default browser.
+This runs a static web server (e.g., using webcheck) and opens the calculator at `http://localhost:<port>` in your default browser.
 
 ### 5. Clean Build Artifacts (Optional)
 To clean up generated files and reset the environment:
