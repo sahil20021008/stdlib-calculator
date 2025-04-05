@@ -1,6 +1,25 @@
 {
     "private": true,
     "dependencies": {
-        "@stdlib/stdlib": "^0.3.2"
-    }
+        "@stdlib/stdlib": "^0.3.2",
+        "css-loader": "^7.1.2",
+        "html-webpack-plugin": "^5.6.3",
+        "style-loader": "^4.0.0",
+        "webpack": "^5.98.0",
+        "webpack-cli": "^6.0.1",
+        "webpack-dev-server": "^5.2.1"
+    },
+    "name": "stdlib-calculator",
+    "version": "1.0.0",
+    "description": "Scientific Calculator made using stdlib library for Showcase for GSoC 2025",
+    "main": "index.js",
+    "scripts": {
+        "clean": "rm -rf dist",
+        "build": "npm run clean && webpack",
+        "start": "webpack serve --open",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
 }
