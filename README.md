@@ -26,20 +26,32 @@ cd stdlib-calculator
 ```
 
 ### 2. Install Dependencies
-Install all the dependencies mentioned in `package.json` file
+Install all the dependencies mentioned in `package.json` file:
+
 `npm install`
 
 ### 3. Build the Project
 Run the following command to create a production-ready bundled version of the calculator:
+
 `npm run build`
+
+
 This will create a single bundle.js file in the dist/ directory 
 
 ### 4. Start a local server
 To serve the project locally in a browser, run:
+
+
 `npm start`
-This runs a static web server (e.g., using webcheck) and opens the calculator at http://localhost:<port> in your default browser.
+
+
+This runs a static web server (e.g., using webcheck) and opens the calculator at http://localhost:&lt;port&gt; in your default browser.
 
 ### 5. Clean Build Artifacts (Optional)
 To clean up generated files and reset the environment:
+
+
 `npm run clean`
+
+
 This will remove the build and temporary files
